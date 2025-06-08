@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom snack-themed colors
+				'soft-pink': 'hsl(var(--soft-pink))',
+				'mint-green': 'hsl(var(--mint-green))',
+				'lavender': 'hsl(var(--lavender))',
+				'cream': 'hsl(var(--cream))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
