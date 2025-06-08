@@ -23,18 +23,20 @@ const HeroSection = () => {
       {/* Main content */}
       <div className="container mx-auto px-4 text-center z-10 pt-16">
         <div className="animate-fade-up" style={{ animationDelay: '0.2s' }}>
-          {/* Large Logo Placeholder */}
+          {/* Large Logo */}
           <div className="mb-8">
-            <div className="inline-block bg-white/20 backdrop-blur-sm rounded-3xl px-12 py-8 font-heading font-bold text-4xl md:text-6xl text-white border-2 border-white/30">
-              [LOGO]
-            </div>
+            <img 
+              src="/lovable-uploads/b027a4b5-c62c-4eb6-b095-4835ab5d785f.png" 
+              alt="NOMNOM CASE - The case that has your back and your snack"
+              className="mx-auto h-32 md:h-48 w-auto filter drop-shadow-2xl"
+            />
           </div>
         </div>
 
         <div className="animate-fade-up" style={{ animationDelay: '0.4s' }}>
           <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
-            Where tech meets<br />
-            <span className="text-cream">tasty style</span>
+            The case that has your back<br />
+            <span className="text-cream">and your snack</span>
           </h1>
         </div>
 

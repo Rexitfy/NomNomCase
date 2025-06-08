@@ -11,9 +11,11 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="bg-soft-pink rounded-lg px-4 py-2 font-heading font-bold text-lg">
-              [LOGO]
-            </div>
+            <img 
+              src="/lovable-uploads/b027a4b5-c62c-4eb6-b095-4835ab5d785f.png" 
+              alt="NOMNOM CASE - The case that has your back and your snack"
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}

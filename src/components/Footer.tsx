@@ -9,18 +9,20 @@ const Footer = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Logo and tagline */}
           <div className="mb-8">
-            <div className="bg-soft-pink rounded-lg px-6 py-3 font-heading font-bold text-xl text-gray-800 inline-block mb-4">
-              [LOGO]
-            </div>
-            <p className="text-gray-300 text-lg">Where tech meets tasty style</p>
+            <img 
+              src="/lovable-uploads/b027a4b5-c62c-4eb6-b095-4835ab5d785f.png" 
+              alt="NOMNOM CASE - The case that has your back and your snack"
+              className="mx-auto h-16 w-auto mb-4 filter brightness-0 invert"
+            />
+            <p className="text-gray-300 text-lg">The case that has your back and your snack</p>
           </div>
 
           {/* Contact information */}
           <div className="mb-8">
             <div className="flex items-center justify-center space-x-2 mb-4">
               <Mail className="text-soft-pink w-5 h-5" />
-              <a href="mailto:hello@snackcases.com" className="text-soft-pink hover:text-pink-300 transition-colors">
-                [contact@email.com]
+              <a href="mailto:hello@nomnomcase.com" className="text-soft-pink hover:text-pink-300 transition-colors">
+                hello@nomnomcase.com
               </a>
             </div>
           </div>
@@ -60,7 +62,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="border-t border-gray-700 pt-8">
             <p className="text-gray-400 flex items-center justify-center space-x-1">
-              <span>© 2024 [Company Name]. Made with</span>
+              <span>© 2024 NOMNOM CASE. Made with</span>
               <Heart className="text-soft-pink w-4 h-4" />
               <span>and lots of snacks.</span>
             </p>
